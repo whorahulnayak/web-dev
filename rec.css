@@ -1,0 +1,33 @@
+body{
+	background-color: #DBEDEE ;
+}
+h1{
+	text-align: center;
+	background-color: #3b5998;
+	border-style: none;
+	border:1px solid black;
+	color:white; 
+	/*border-left-width: 100px;*/
+}
+#header:hover{
+	background-color:pink;
+	color:purple;
+	cursor: pointer;
+}
+form label{
+	border: none;
+	font-family: inherit;
+	background-color: #DBEDEE;
+	
+}
+button{
+	background-color: #67ae55;
+	margin:5px;
+}
+/*._f{
+	background-color: yellow;
+	border-collapse: collapse;*/
+}
+*{
+    font-weight: bold;
+}
