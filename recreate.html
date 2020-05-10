@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Recreate</title>
-	<link rel="stylesheet" type="text/css" href="rec.css">
+	<title>box model</title>
+	<link rel="stylesheet" type="text/css" href="boxmod.css">
 </head>
 <body>
-      <h1 id="header">Facebook</h1>	
+	<!-- <h1>box model</h1> -->
+	<div id="box">
+		<div id="content">facebook</div>
+	</div>
 
-      <form action="http:www.google.com" method="GET">
+	<div id="box2">
+		<div id="content2">
+<form action="http:www.google.com" method="GET">
       	<label class="_f" for="fname">First Name</label>
       	<input type="text" placeholder="first name" id="fname" name="first name">
 
@@ -15,14 +20,14 @@
       	<input type="text" placeholder="last name" id="lname" name="last name">
 
       	<div>
-        <label  for="em">Email</label>
+        <label  class="em" for="em">Email</label>
       	<input type="email" placeholder="you@xxxx.com" id="em" required name="email" >
 
       	<label  for="pw">Password</label>
       	<input type="password" placeholder="Password" id="pw" required name="Password">
         </div>
 
-        <div>
+        <div id="gen">
         	<label>Male</label>
         	<input type="radio" name="gender">
         	<label>Female</label>
@@ -31,9 +36,13 @@
         	<input type="radio" name="gender">
 
         </div>
-       <button>login</button>
-
-
+     
+       <button id="but">login</button>
+     
+      
       </form>
+     </div>
+	</div>
+
 </body>
 </html>
