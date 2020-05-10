@@ -1,33 +1,62 @@
 body{
-	background-color: #DBEDEE ;
+	background-color: #F4FBF9  ;
 }
-h1{
+#box{
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+
+}
+#content{
+	background-color: #385898;
+	border:5px  black;
+	box-sizing: border-box;
+	width:900px ;
 	text-align: center;
-	background-color: #3b5998;
-	border-style: none;
-	border:1px solid black;
-	color:white; 
-	/*border-left-width: 100px;*/
+	color:white;
+	font-family:Helvetica,Arial,sans serif;
+	padding:30px 100px 10px 0px;
+	margin:0px 10px 20px 10px;
+   
 }
-#header:hover{
-	background-color:pink;
-	color:purple;
-	cursor: pointer;
+#content:hover{
+      background-color: orange;
+      color:red;
 }
-form label{
-	border: none;
-	font-family: inherit;
-	background-color: #DBEDEE;
-	
+
+#box2{
+	font-weight:bold;
+	font-style:normal;
+	margin: 0 ;
+	padding: 0;
 }
-button{
-	background-color: #67ae55;
-	margin:5px;
+#content2{
+	background-color: #9EBCE4;
+	box-sizing: border-box;
+	width:600px;
+	margin:0px;
+    padding:10px;
+    font-family: Helvetica, Arial, sans serif;
+    box-shadow: inset;
 }
-/*._f{
-	background-color: yellow;
-	border-collapse: collapse;*/
+.em{
+     margin: 17px;
 }
-*{
-    font-weight: bold;
+#but{
+     width: 60px;
+     color:#E7E543;
+     background-color:#71D84A ;
+}
+#but:hover{
+	cursor:pointer;
+	background-color:#9ED888 ;
+	color:#D89288 ;
+}
+
+#gen{
+	padding:10px;
+	margin:10px;
+	border-width: 2px;
+	border: 0.3px solid #DEF8F7;
 }
