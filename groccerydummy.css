@@ -1,0 +1,72 @@
+body{
+	background-image: url(https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/powerhouse_vegetables_slideshow/650x350_powerhouse_vegetables_slideshow.jpg);
+	
+}
+#head{
+	background-color: grey;
+	text-align: center;
+	margin:20px;
+	margin-left:0px; 
+	padding:10px;
+	border:3px solid black;
+	box-sizing: border-box;
+	font-family: : times new roman arial san-serif;
+	font-weight: bold;
+	width:100%;
+}
+#_h4{
+	background-color:#7BF0C9;
+	margin:10px;
+	padding:20px;
+	font-family:arial;
+	border-style: ridge;
+	border-color:red;  
+}
+
+img{
+	width:200px;
+	border-radius: 10px;
+}
+#items{
+	background-color: #ADCBC8;
+	margin:10px;
+	border-radius:10px;
+	border:2px solid black;
+
+}
+p{
+	font-family: 	Courier New;
+}
+#but1{
+	border-radius: 12px;
+	background-color:#D6CFCE;
+	font-family:celias helvetica;
+	font-size:12px
+	color:#C15246;
+	border-color: red;
+}
+#but1:hover{
+	background-color: white;
+	color:#43AF1B;
+	cursor:pointer;
+}
+#but2{
+	border-radius: 15px;
+	background-color:#D6CFCE;
+	font-family:celias helvetica;
+	font-size:12px
+	color:#C15246;
+	border-color: red;
+}
+#but2:hover{
+	background-color: white;
+	color:#43AF1B;
+	cursor:pointer;
+}
+#tom{
+	margin:10px;
+	padding:5px;
+}
+#pot{
+	margin:10px;
+}
