@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+/*base styling */
+#main{
+	width:100%;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+}
+p{
+	margin-right: auto;
+  margin-left: auto;
+  padding:5px;
+  clear:right;
+}
+
+.chic{
+	background-color: grey;
+   border: 1px solid black;
+  width: 33%;
+  height: 33%;
+  margin:10px;
+  font-family: Helvetica;
+}
+.beef{
+	background-color: grey;
+   border: 1px solid black;
+  width: 33%;
+  height: 33%;
+  margin:10px;
+  font-family: Helvetica;
+}
+.sush{
+	background-color: grey;
+   border: 1px solid black;
+  width: 33%;
+  height: 33%;
+  margin:10px;
+  font-family: Helvetica;
+}
+
+.ch{
+	float: right;
+	border:1px solid black;
+	background-color: pink;
+	padding: 5px;
+	margin-bottom: 2px;
+}
+
+
+
+
