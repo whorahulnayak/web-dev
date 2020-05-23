@@ -1,62 +1,81 @@
-body{
-	background-color: #F4FBF9  ;
-}
-#box{
-	font-weight: bold;
-	font-size: 24px;
-	margin: 0;
-	padding: 0;
 
-}
-#content{
+.navbar-default{
 	background-color: #385898;
-	border:5px  black;
-	box-sizing: border-box;
-	width:900px ;
-	text-align: center;
+	padding-top: 10px;
+}
+.navbar-default .navbar-brand{
+	font-size:45px;
 	color:white;
-	font-family:Helvetica,Arial,sans serif;
-	padding:30px 100px 10px 0px;
-	margin:0px 10px 20px 10px;
-   
 }
-#content:hover{
-      background-color: orange;
-      color:red;
+.navbar-default .navbar-brand:hover{
+	color:#D6DDDC;
+	cursor: pointer;
 }
-
-#box2{
-	font-weight:bold;
-	font-style:normal;
-	margin: 0 ;
-	padding: 0;
-}
-#content2{
-	background-color: #9EBCE4;
-	box-sizing: border-box;
-	width:600px;
-	margin:0px;
-    padding:10px;
-    font-family: Helvetica, Arial, sans serif;
-    box-shadow: inset;
-}
-.em{
-     margin: 17px;
-}
-#but{
-     width: 60px;
-     color:#E7E543;
-     background-color:#71D84A ;
-}
-#but:hover{
-	cursor:pointer;
-	background-color:#9ED888 ;
-	color:#D89288 ;
+.cont{
+	font-weight: bold;
+	color: white;
+	padding-top: 10px;
 }
 
-#gen{
-	padding:10px;
-	margin:10px;
-	border-width: 2px;
-	border: 0.3px solid #DEF8F7;
+.imp{
+	width:200px;
+	background-color: #E8f0fe;
+	padding-left:5px; 
+}
+ .btn-default{
+	background-color: #4267b2;
+	border-color: #29487d;
+	color:white;
+	position: relative;
+	top:13px;
+}
+.forgot a{
+	color:#9cb4d8;
+}
+label{
+	color:white;
+	font-size:12px;
+	font-weight: normal; 
+}
+body{
+	background-color:  #e9ebee;
+}
+.container-2{
+	float:right;
+	margin-right:230px;
+	width:400px;
+}
+.acc{
+	font-size: 36px;
+	font-weight: bold;
+	font-family: 'Noto Sans JP', sans-serif;
+
+}
+h4{
+	font-size:20px;
+	padding-bottom: 10px;
+}
+.radio-inline{
+	color:black;
+	font-weight:500;
+	font-size:20px;
+}
+.radio{
+	color:#90949c;
+	font-size:22px;
+}
+.but{
+      margin: 10px;
+      background-color: #69a74e;
+      color:white;
+      font-size: 19px;
+      font-weight:600;
+      padding:5px;
+      border-radius:5px;
+      box-shadow: inset 0 1px 1px #a4e388;
+      background: linear-gradient(#67ae55, #578843);
+}
+.but:hover{
+           background-color:#6DE17D;
+           color:#D6F0D4;
 }
