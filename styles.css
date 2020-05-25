@@ -20,14 +20,21 @@
 .imp{
 	width:200px;
 	background-color: #E8f0fe;
-	padding-left:5px; 
+	padding-left:5px;
+
 }
+
  .log{
 	background-color: #4267b2;
 	border:1px solid black;
 	color:white;
 	position: relative;
 	top:13px;
+	font-family: sans-serif;
+	font-weight: 500;
+}
+.log:hover{
+	background-color:#385BA1; 
 }
 .forgot a{
 	color:#9cb4d8;
@@ -44,6 +51,8 @@ body{
 	float:right;
 	margin-right:180px;
 	width:400px;
+	position: relative;
+	left:40px;
 }
 .acc{
 	font-size: 36px;
@@ -63,6 +72,10 @@ h4{
 .radio{
 	color:#90949c;
 	font-size:22px;
+}
+.but-cont{
+	padding-top:10px;
+    margin-top: 10px;
 }
 .but{
       margin: 10px;
